@@ -1,6 +1,6 @@
 # git commands list with short explanations of each
 
-1. git init => to initialize git in a particular directory
+1. git init => to initialize git in a particular directory.
 2. git status => to check the current status of the directory, like untracked files, changed files, deleted files, new files.
 3. git add => to add files into staging area.  
    examples:  
@@ -27,7 +27,7 @@
 8. git checkout {branchname} => this selects the given branch.
 9. git checkout -b {branchName} => creation and checkout in one step
 
-## steps to make forked repo on same level as main project's repo
+## steps to get the latest commits from forked repo.
 
 1. git checkout {Mainbranch} => select main branch
 2. git fetch --all --prune => fetch all the commits and even the prune one's deleted
@@ -42,6 +42,6 @@
 - or  
   fetch upstream on github
 
-## squashing commits (making one commit out of multiple commit)
+## squashing commits (how to merge commits)
 
 1. git rebase -i hashID => select pick commit to create the commit and s to merge the commit to previous pick commit
