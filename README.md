@@ -30,7 +30,7 @@
 ## steps to make forked repo on same level as main project's repo
 
 1. git checkout {Mainbranch} => select main branch
-2. git fetch --all --prune => fetch all the commits and even theprune one's
+2. git fetch --all --prune => fetch all the commits and even the prune one's deleted
 3. git reset --hard upstream/main => reseting the main branch to upstream's main branch
 4. git push origin main => pushing the changes to the origin.
 
