@@ -26,6 +26,9 @@
 7. git branch {branchname} => this command creates branches.
 8. git checkout {branchname} => this selects the given branch.
 9. git checkout -b {branchName} => creation and checkout in one step
+10. git branch => lists all the local branch.
+11. git branch -d {branchName} => deletes the branch locally.
+12. git push -d origin {branchName} => deletes the remote branch.
 
 ## steps to get the latest commits from forked repo.
 
